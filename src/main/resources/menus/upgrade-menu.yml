@@ -1,0 +1,77 @@
+title: "&e&lUpgrades - (%id%)"
+rows: 3
+
+items:
+  exit:
+    item: WOOD_DOOR
+    slot: 9
+    row: 3
+    name: "&c&lBack"
+    lore:
+      - "&fGo back to the previous page."
+  storage:
+    item: CHEST
+    row: 2
+    slot: 1
+    name: "&9&lStorage"
+    lore:
+      - "&7Upgrading your storage allows your"
+      - "&7to add more blocks to the storage."
+      - "&7More blocks means more gang points."
+      - ""
+      - "&fLevel: &9%level% lvl"
+      - "&fCost to upgrade: &5%exp%"
+      - ""
+      - "&9Click to upgrade."
+  sell:
+    item: GOLD_INGOT
+    row: 2
+    slot: 3
+    name: "&e&lSell multiplier"
+    lore:
+      - "&7Upgrading your sell multiplier results"
+      - "&7in more profit when you sell your blocks."
+      - ""
+      - "&fSell multiplier: &e%multiplier%"
+      - "&fCost to upgrade: &5%exp% exp"
+      - ""
+      - "&eClick to upgrade."
+  mine:
+    item: IRON_PICKAXE
+    row: 2
+    slot: 5
+    name: "&8&oGang mine"
+    lore:
+      - "&7Upgrading your gang mine results in"
+      - "&7blocks with more value in your mine."
+      - ""
+      - "&fLevel: &8%mine% lvl"
+      - "&fCost to upgrade: &5%exp% exp"
+      - ""
+      - "&8Click to upgrade."
+  members:
+    item: SKULL_ITEM
+    row: 2
+    slot: 7
+    name: "&3&lGang members"
+    lore:
+      - "&7Upgrading gang members gives you"
+      - "&7the option to invite more members to"
+      - "&7your gang."
+      - ""
+      - "&fLevel: &3%members% lvl &f(%amount%)"
+      - "&fCost to upgrade: &5%exp% exp"
+      - ""
+      - "&3Click to upgrade."
+  gblock:
+    item: SLIME_BLOCK
+    row: 2
+    slot: 9
+    name: "&c&lGang block"
+    lore:
+      - "&7Upgrading gang blocks improves the"
+      - "&7chances of GBlocks spawning in your"
+      - "&7gang mine."
+      - ""
+      - "&fLevel: &c%gblock% lvl"
+      - "&fCost to upgrade: &5%exp% exp"

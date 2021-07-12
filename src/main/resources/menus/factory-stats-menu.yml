@@ -1,0 +1,74 @@
+title: "&f&lFactory %id%"
+rows: 3
+
+items:
+  exit:
+    item: WOOD_DOOR
+    slot: 9
+    row: 3
+    name: "&c&lBack"
+    lore:
+      - "&fGo back to the previous page."
+  production:
+    item: IRON_PICKAXE
+    slot: 1
+    row: 2
+    name: "&6&lProduction rate"
+    lore:
+      - "&7Upgrading your production rate would"
+      - "&7deliver you more gang blocks per hour."
+      - ""
+      - "&fRate: &6%rate% blocks per hour"
+      - "&fCost to upgrade: &5%rate-upgrade% exp"
+      - ""
+      - "&6Click to upgrade!"
+  info:
+    item: PAPER
+    slot: 5
+    row: 2
+    name: "&f&lFactory %id%"
+    lore:
+      - "&7This factory produces gang blocks."
+      - "&7Info:"
+      - ""
+      - "&fGang owner: &6%name%"
+      - "&fRent status: %rent-status%"
+      - "&fUnclaimed blocks: &a%blocks%"
+      - ""
+      - "&fClick to claim the blocks."
+  quality:
+    item: GOLD_ORE
+    slot: 3
+    row: 2
+    name: "&a&lBlock quality"
+    lore:
+      - "&7Upgrading your block quality will"
+      - "&7result in getting blocks with more"
+      - "&7point value."
+      - ""
+      - "&fQuality: &a&l%quality%"
+      - "&fCost to upgrade: &5&l%quality-upgrade% exp"
+      - ""
+      - "&aClick to upgrade!"
+  rent:
+    item: GOLD_INGOT
+    slot: 7
+    row: 2
+    name: "&e&lRent"
+    lore:
+      - "&7If you don't pay rent every"
+      - "&7day your factory will go for sale."
+      - ""
+      - "&fRent: &e&l$%rent%"
+      - ""
+      - "&eClick to pay."
+  sale:
+    item: NAME_TAG
+    slot: 9
+    row: 2
+    name: "&4&lSell"
+    lore:
+      - "&7If you sell your factory you"
+      - "&7won't receive compensation."
+      - ""
+      - "&4Click to sell."

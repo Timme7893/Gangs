@@ -1,0 +1,93 @@
+title: "&6&lGangs Menu"
+rows: 6
+
+items:
+  exit:
+    item: BARRIER
+    slot: 9
+    row: 6
+    name: "&c&lExit"
+    lore:
+      - "&fClick to exit this menu."
+  info:
+    item: PAPER
+    slot: 4
+    row: 6
+    name: "&6&l%gang-name%"
+    lore:
+      - "&7Statistics of your gang:"
+      - ""
+      - "&fLeader: &6&l%leader%"
+      - "&fPoints: &9&l%points%"
+      - "&fMembers: &a&l%members%"
+      - "&fExp: &5&l%exp%"
+  top:
+    item: GOLD_NUGGET
+    slot: 6
+    row: 6
+    name: "&6&lGang top"
+    lore:
+      - "&fClick to open the &6&lgang top menu&f."
+  own-factories:
+    item: IRON_PICKAXE
+    slot: 5
+    row: 6
+    name: "&9&lYour factories"
+    lore:
+      - "&fClick to open the &9&lgang factory menu&f."
+  storage:
+    item: CHEST
+    slot: 2
+    row: 4
+    name: "&9&lStorage"
+    lore:
+      - "&fClick to open &9&lthe gang storage&f."
+  house:
+    item: BED
+    slot: 2
+    row: 2
+    name: "&e&lHouse"
+    lore:
+      - "&fClick to teleport to &e&lthe gang house&f."
+  upgrades:
+    item: LADDER
+    slot: 4
+    row: 4
+    name: "&a&lUpgrades"
+    lore:
+      - "&fClick to open &a&lthe upgrade menu&f."
+  members:
+    item: SKULL_ITEM
+    slot: 4
+    row: 2
+    name: "&3&lMembers"
+    lore:
+      - "&fClick to open &3&lthe member menu&f."
+  factories:
+    item: WHEAT
+    slot: 6
+    row: 4
+    name: "&c&lFactory"
+    lore:
+      - "&fClick to open &c&lthe factory menu&f."
+  wars:
+    item: IRON_SWORD
+    slot: 6
+    row: 2
+    name: "&5&lWars"
+    lore:
+      - "&fClick to open &5&lthe gang wars menu&f."
+  enemies:
+    item: FIREBALL
+    slot: 8
+    row: 2
+    name: "&4&lEnemies"
+    lore:
+      - "&fClick to open &4&lthe enemies menu&f."
+  allies:
+    item: IRON_CHESTPLATE
+    slot: 8
+    row: 4
+    name: "&f&lAllies"
+    lore:
+      - "&fClick to open &f&lthe allies menu&f."

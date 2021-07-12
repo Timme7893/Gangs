@@ -1,0 +1,53 @@
+# Gang's config file.
+
+mysql:
+  host: ''
+  database: ''
+  user: ''
+  password: ''
+
+gang-color: "&e"
+
+gang-invite-disabled-worlds:
+  - "world"
+
+gang-house:
+  world: 'gang-houses'
+  last-house-x: 0
+  # DO NEVER CHANGE LAST-HOUSE-X
+
+# max-players-gang: 10
+
+gang-upgrades:
+  default-storage: 200
+  default-mine: 150
+  default-gblock: 130
+  default-members: 130
+  default-sell: 250
+  # the default value = exp. This value is of one level. To upgrade the cost is calculated by formulas.
+  max-levels:
+    sell: 20
+    mine: 50
+
+gang-chat:
+  format: "&6&l(GANG-CHAT) &f%rank% %name%: %message%"
+  # %rank% = the rank character, %name% = player name, %message% = the message send.
+  ranks:
+    member: '-'
+    officer: '*'
+    admin: '+'
+    leader: '±'
+
+mines:
+  minutes-before-reset: 60
+
+factories:
+  max-amount-per-gang: 3
+  total: 100
+  default-cost: 25000000.0
+  slime-multiplier: 1.0
+  lantern-multiplier: 5.0
+  prismarine-multiplier: 8.0
+  upgrade-quality:
+    lantern: 20000.0
+    prismarine: 50000.0

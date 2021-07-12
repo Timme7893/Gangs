@@ -1,0 +1,35 @@
+# All timeframes are in minutes!
+
+riots:
+  enabled: 'true'
+  duration: 10
+  between-riots: 120
+  # between riots is in minutes.
+  announce-time: 10
+  # Announce time is the minutes the riot gets announced before a riot starts.
+  announce-message: "&8&lRiots &f> A riot is starting in &6&l%time% minutes&f! Prepare yourself and your gang members for a big fight. Time to kill and earn GEXP!"
+  start-message: "&8&lRiots &f> The riot has started!"
+  riot-on: "&8&lRiots &f> There is riot event going on. Participate and kill some enemies!"
+  stop-message: "&8&lRiots &f> The riot has ended!"
+  exp-message: "%gang% &f> Your gang has earned &5&l%exp% exp &fthis riot!"
+
+gang-labs:
+  placed: "&8&lRiots &f> %player% has placed down a Gang Lab in the Riot Event mine. Destory the block to remove their double exp booster!"
+  item: DISPENSER
+  name: "&3&lGang Lab"
+  lore:
+    - "&fPlace a Gang Lab during a riot to"
+    - "&fdouble your gang exp boost!"
+    - ""
+    - "&c&lWhen it gets broken your boost stops!"
+
+riots-area:
+  world: world
+  loc1:
+    x: 0
+    y: 0
+    z: 0
+  loc2:
+    x: 0
+    y: 0
+    z: 0

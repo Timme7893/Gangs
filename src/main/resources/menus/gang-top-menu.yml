@@ -1,0 +1,14 @@
+title: "&6&lGang top"
+rows: 3
+
+msg:
+  name: '&f%position%. %gang-name%'
+  lore: '&6&l%gang-points% points&f. (&6&l%gang-members% members&f)'
+items:
+  exit:
+    item: WOOD_DOOR
+    slot: 9
+    row: 3
+    name: "&c&lBack"
+    lore:
+      - "&fGo back to the previous page."

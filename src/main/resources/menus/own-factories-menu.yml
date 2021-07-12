@@ -1,0 +1,23 @@
+title: "&9&lYour factories:"
+rows: 3
+
+items:
+  factory:
+    item: IRON_PICKAXE
+    name: "&f&lFactory %id%"
+    lore:
+      - "&7The statistics of factory %id%:"
+      - ""
+      - "&fRent per day: &e&l$%rent%"
+      - "&fProduction rate: &6&l%rate%"
+      - "&fProduction quality: &2&l%quality%"
+      - "&fUnclaimed blocks: &9&l%blocks%"
+      - ""
+      - "&aClick to change settings!"
+  exit:
+    item: WOOD_DOOR
+    slot: 9
+    row: 6
+    name: "&c&lBack"
+    lore:
+      - "&fGo back to the previous page."

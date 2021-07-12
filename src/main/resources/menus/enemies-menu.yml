@@ -1,0 +1,20 @@
+title: "&4&lEnemies"
+rows: 6
+
+items:
+  exit:
+    item: WOOD_DOOR
+    slot: 9
+    row: 6
+    name: "&c&lBack"
+    lore:
+      - "&fGo back to the previous page."
+  enemy:
+    item: IRON_SWORD
+    name: "&c&l%name%"
+    lore:
+      - "&fYou're a enemy of this gang."
+      - "&fYour gang can fight against this gang"
+      - "&fand debuff them."
+      - ""
+      - "&c&lClick to open the debuff menu."

@@ -1,0 +1,416 @@
+message-prefix:
+  enabled: 'true'
+  message: "&6&lGangs &f> "
+
+# User command messages:
+
+create-form:
+  message: "Use: /gang create <name>."
+
+demote-form:
+  message: "Use: /gang demote <name>."
+
+promote-form:
+  message: "Use: /gang promote <name>."
+
+setleader-form:
+  message: "Use: /gang setleader <name>."
+
+kick-form:
+  message: "Use: /gang kick <name>."
+
+invite-form:
+  message: "Use: /gang invite <name>."
+
+join-form: "Use: /gang join <gang>."
+
+player-not-in-gang:
+  message: "You're not in a gang."
+
+member-not-leader:
+  message: "You aren't the leader of your gang."
+
+member-already-owns-gang:
+  message: "You already own a gang. You can't have 2 gangs, I'm sorry."
+
+member-in-gang:
+  message: "You're already in a gang. First leave your gang!"
+
+gang-created:
+  message: "You've created the {0} gang."
+  # {0} = gang name.
+
+gang-blacklist-name:
+  message: "Please, don't use explicit words in your gang name!"
+
+player-not-exists:
+  message: "The player &c&l{0} &fdoesn't exists."
+  # {0} = player name.
+
+target-not-in-gang:
+  message: "The player &c&l{0} &fhas no gang."
+
+not-same-gang:
+  message: "Both of you have a different gang. You can only promote / demote members of your own gang."
+
+cant-promote:
+  message: "The next role is &c&lleader. Use /gang setleader <name> to make a member gang leader."
+
+cant-demote:
+  message: "There is no lower rank then member."
+
+cant-demote-leader:
+  message: "You can't demote your gang leader."
+
+player-promoted:
+  message: "You've been promoted to the &a&l{0} &frank!"
+  # {0} = rank name.
+
+member-promoted:
+  message: "You've promoted {0} to &a&l{1} &frank."
+  # {0} = target name, {1} = rank name.
+
+player-demoted:
+  message: "You've been demoted to the &c&l{0} &frank."
+  # {0} = rank name.
+
+member-demoted:
+  message: "You've demoted {0} to the &c&l{1} &frank."
+  # {0} = player name, {1} = rank name.
+
+gang-disbanded:
+  message: "You've disbanded your gang."
+
+player-now-leader:
+  message: "You're now the leader of the {0} gang!"
+
+player-now-admin:
+  message: "You've given the leader rank to {0} and demoted yourself to admin."
+
+player-leave-leader:
+  message: "You can't leave the gang, because you are the gang leader. Please make someone else gang leader or disband your gang."
+
+player-gang-left:
+  message: "You've left the gang."
+
+player-kicked:
+  message: "You've been kicked out of your gang."
+
+member-kicked:
+  message: "You've kicked {0} out of the gang."
+  # {0} = target name.
+
+cant-kick-leader:
+  message: "You can't kick the leader of your gang!"
+
+player-already-in-gang:
+  message: "Player {0} is already in a gang."
+  # {0} = player name.
+
+player-invited:
+  message: "You've been invited to the {0}&f gang. Use: &a&l/gang join {0}&f to join the gang!"
+  # {0} = gang name.
+  
+gang-is-full:
+  message: "You can't join this gang because {0} has reached the maximum amount of gang members!"
+  # {0} = gang name.
+
+gang-is-already-full:
+  message: "You can't invite this player because your gang is already full!"
+
+member-invited:
+  message: "You've invited {0} to the gang."
+  # {0} = target name.
+
+gang-not-exists:
+  message: "The gang {0} doesn't exists."
+  # {0} = gang name.
+
+player-not-invited:
+  message: "You have no pending invites from {0} gang."
+  # {0} = gang name.
+
+gang-new-member:
+  message: "{0} has joined the gang."
+
+gang-chat-enabled:
+  message: "{0} &f> Gang chat enabled."
+  # {0} = gang name
+
+gang-chat-disabled:
+  message: "{0} &f> Gang chat disabled."
+  # {0} = gang name
+
+no-kick-perms:
+  message: "Your role doesn't allow you to kick members."
+
+invite-revoked:
+  message: "You've revoked the invite of {0}."
+  # {0} = invited player.
+
+invite-disabled-world:
+  message: "The player you try to invite is in a disabled world. Please, wait..."
+
+no-permissions:
+  message: "You're not allowed to do that."
+
+name-error:
+  message: "Your gang name can't be over 12 characters."
+
+gang-top:
+  message: "&6&lGangs &f> Gang top 10:"
+  format: "&f%place%. %name%: &6&l%points% points&f. (&6&l%max% members&f)"
+
+user-gang-command-help:
+  - "&6&lGangs &f> Commands:"
+  - "/gang create <name> = Use this command to create your own gang!"
+  - "/gang disband = Use this command to disband your gang."
+  - "/gang chat = Use this command to enable or disable the gang chat."
+  - "/gang house = Use this command to teleport to your gang house."
+  - "/gang invite <player> = Use this command to invite a player to your gang."
+  - "/gang join <gang> = Use this command to join a gang."
+  - "/gang leave = Use this command to leave your gang."
+  - "/gang kick <member> = Use this command to kick a member of your gang."
+  - "/gang menu or /gang = Use this command to open the gang menu."
+  - "/gang setleader <member> = Use this command to make a member the leader of your gang."
+  - "/gang promote <member> = Use this command to promote a member of your gang."
+  - "/gang demote <member> = Use this command to demote a member of your gang."
+  - "/gang factories = Use this command to open the gang factories menu."
+
+
+
+
+# riot commands:
+
+riots-area-loc:
+  message: "Select a block to set the first location of the riot area!"
+
+riots-area-loc1:
+  message: "You've set location one of the riot area. Please, select another block to set location 2."
+
+riots-area-loc2:
+  message: "Location two of the riot area has been set. The new riot area is now active!"
+
+exp-gained:
+  message: "&5&l+{0} exp!"
+  # {0} = exp
+
+
+
+
+# gang-admin-commands:
+
+not-admin:
+  message: "You're not allowed to execute this command. I'm sorry."
+
+admin-gang-command-help:
+  - "&6&lGangs &f> Gang Admin commands:"
+  - "/agang setriotarea = Use this command to set the riot area."
+  - "/agang giveblock <gang> <blocktype> <amount> = Use this command to give gang GBlocks."
+  - "/agang giveblockp <player> <blocktype> <amount> = Use this command to give players gang GBlocks."
+  - "/agang removeblock <gang> <blocktype> <amount> = Use this command to remove gang GBlocks."
+  - "/agang giveexp <gang> <amount> = Use this command to give gang exp."
+  - "/agang removeexp <gang> <amount> = Use this command to remove gang exp."
+  - "/agang upgradeplayer <player> = Use this command to move a gang member to the next role."
+  - "/agang demoteplayer <player> = Use this command to demote a gang member."
+  - "/agang giveganglab <player> <amount> = Use this command to give a player a gang lab."
+  - "/agang givebooster <gang> <value> <minutes> = Use this command to give boosters. 0 minutes = permanent."
+  - "/agang clearboosters <gang> = Use this command to clear all temporary boosters."
+  - "/agang bypass = Use this command to toggle gang bypass mode, allowing you to break blocks in other gangs."
+  - "/agang riot <start/stop> = Use this command to controle the riots."
+  - "/agang delete <gang> = Use this command to delete a gang."
+
+gang-unknown:
+  message: "The gang {0} doesn't exists!"
+  # {0} = gang name.
+
+gang-deleted:
+  message: "You've deleted the gang {0}."
+  
+player-unknown:
+  message: "That player isn't online!"
+
+invalid-integer:
+  message: "Please, send a valid number!"
+
+unknown-block:
+  message: "The gang block is unknown. Please use: slime, lantern or prismarine!"
+
+added-block:
+  message: "Added {0} {1} blocks to {2} storage!"
+  # {0} = amount, {1} = gang block type, {2} = gang name.
+
+removed-block:
+  message: "Removed {0} {1} blocks from {2} storage!"
+  # {0} = amount, {1} = gang block type, {2} = gang name.
+
+added-exp:
+  message: "Added {0} exp to {1} gang!"
+  # {0} = amount exp, {1} = gang name
+
+removed-exp:
+  message: "Removed {0} exp from {1} gang!"
+  # {0} = amount exp, {1} = gang name
+
+use-ganglab:
+  message: "Use: /agang giveganglab <player> <amount>."
+
+given-ganglab:
+  message: "Given {0} Gang-Labs to {1}."
+  # {0} = amount, {1} = target name.
+
+use-delete-gang:
+  message: "Use: /agang delete <gang>"
+
+use-givebooster:
+  message: "Use: /agang givebooster <gang> <value> <minutes>."
+
+use-valid-double:
+  message: "Please, use a valid value. Like 0.1 or 0.2."
+
+booster-added:
+  message: "Added {0} exp booster to {1}!"
+  # {0} = value, {1} = gang name.
+
+use-clearbooster:
+  message: "Use: /agang clearboosters <gang>"
+
+clearboosters:
+  message: "You've removed {0} boosters from {1} gang."
+  # {0} = amount of boosters
+  # {1} = gang name
+
+use-riot:
+  message: "Use /agang riot &a&lstart &for /agang riot &c&lstop&f."
+
+riot-active:
+  message: "There is already a riot going on!"
+
+riot-empty:
+  message: "There is no riot going on!"
+
+# factory messages
+
+bought-factory:
+  message: "You've bought factory {0}!"
+  # {0} = factory id.
+
+upgraded-rate:
+  message: "You've upgraded the production rate of the factory! Cost: &5&l{0} exp&f."
+  # {0} = exp cost from gang.
+
+upgraded-quality:
+  message: "You've upgraded the block quality of the factory! Cost: &5&l{0} exp&f."
+  # {0} = exp cost from gang.
+
+claimed-blocks:
+  message: "The claimed blocks are added to your gang storage!"
+
+not-enough-exp:
+  message: "Your gang has not enough exp to upgrade this factory."
+
+already-paid:
+  message: "The rent of this factory has been already paid for today!"
+
+not-enough-money:
+  message: "You don't have enough money to pay the rent of this factory."
+
+rent-paid:
+  message: "You've paid todays rent of this factory!"
+
+factory-sold:
+  message: "You've sold your factory."
+
+too-much-factories:
+  message: "You can't buy this factory, you already own {0} factories!"
+  # {0} = max amount of factories
+
+# gang-upgrades
+max-upgrade-level-reached:
+  message: "You've reached the maximum upgrade level!"
+
+storage-upgrade:
+  message: "You've upgraded the storage level of your gang by one level. Cost: &5&l{0} exp&f."
+
+sell-upgrade:
+  message: "You've upgraded the sell multiplier level of your gang by one level. Cost: &5&l{0} exp&f."
+
+mine-upgrade:
+  message: "You've upgraded the mine level of your gang mine by one level. Cost: &5&l{0} exp&f."
+
+members-upgrade:
+  message: "You've upgraded the max member level of your gang by one level. Cost: &5&l{0} exp&f."
+
+gblock-upgrade:
+  message: "You've upgraded the GBlock level of your gang by one level. Cost: &5&l{0} exp&f."
+
+not-enough-exp-gang:
+  message: "Your gang doesn't has enough &5&lexp &fto perform this upgrade."
+
+not-perms-gang:
+  message: "Your gang rank doesn't allow you to upgrade your gang. Ask a admin or higher to perform this action!"
+
+# allies and enemies:
+
+ally-invite:
+  message: "{0} invites your gang to be allies. Use &a&l/gang acceptally {1} &fto accept the invitation."
+  # {0} = gang name, {2} = gang name.
+
+ally-invite-send:
+  message: "The ally request was send to {0}."
+  # {0} = gang name.
+
+ally-invite-accepted:
+  message: "{0} has &a&laccepted&f your ally request."
+  # {0} = gang name.
+
+receiver-invite-accepted:
+  message: "Request accepted. You're now allies with: {0}"
+  # {0} = gang name.
+
+ally-invite-declined:
+  message: "{0} has &4&ldeclined &fyour ally request."
+
+receiver-declined-request:
+  message: "Your gang has declined the ally request of {0}."
+  # {0} = gang name.
+
+ally-resolved:
+  message: "{0} has resolved your allience."
+  # {0} = gang name.
+
+enemy-declared:
+  message: "{0} has declared {1} as an enemy."
+  # {0} = gang name, {1} = enemy gang name.
+
+enemy-resolved:
+  message: "{0} has neutralised your gang."
+  # {0} = gang name.
+
+to-much-allies:
+  message: "You already have the max amount of alliances that is allowed."
+
+bypass-enabled:
+  message: "You've enabled gang bypass mode."
+
+bypass-disabled:
+  message: "You've disabled gang bypass mode."
+
+# mine:
+mine-reset-warning:
+  message: "Warning! Your mine will reset in &l1&r minute."
+
+mine-reset:
+  message: "Your mine has been reset!"
+
+# util:
+
+soon-message:
+  message: "Coming soon..."
+
+death-message:
+  message: "%gang1%&f %killer% has killed %gang2%&f %death%!"
+  # {0} = gang name killer, {1} = killer name, {2} = gang name death, {3} = death name
+
+storage-max-size:
+  message: "Your gang storage has reached his limit of items. Upgrade your storage to store more items!"

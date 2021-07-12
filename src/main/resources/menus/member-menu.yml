@@ -1,0 +1,33 @@
+title: "&3&lMember menu"
+rows: 3
+
+items:
+  exit:
+    item: WOOD_DOOR
+    slot: 9
+    row: 2
+    name: "&c&lBack"
+    lore:
+      - "&fGo back to the previous page."
+  member:
+    item: head:%name%
+    name: "&f&l%name%"
+    lore:
+      - "&7Statistics of %name%:"
+      - ""
+      - "&fExp gained: &5%exp% exp"
+      - "&fBlocks broken: &c%blocks% blocks"
+      - "&fGang role: &e%role%"
+      - "&fOnline: %online%"
+      - ""
+      - "&cClick to kick member."
+  not-enough-slots:
+    item: BARRIER
+    name: " "
+    lore:
+      - " "
+#  invite:
+#    item: SKULL
+#    name: "&c&l%name%"
+#    lore:
+#      - "&fClick to remove invite."

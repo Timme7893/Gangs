@@ -1,0 +1,42 @@
+title: "&4&lDebuff &f- %name%"
+rows: 3
+
+items:
+  exit:
+    item: WOOD_DOOR
+    slot: 9
+    row: 3
+    name: "&c&lBack"
+    lore:
+      - "&fGo back to the previous page."
+  mine-nuker:
+    item: IRON_PICKAXE
+    row: 2
+    slot: 3
+    name: "&9&lMine nuker"
+    lore:
+      - "&fThis debuff will stop this gang's mine"
+      - "&fof resetting for 3 hours."
+      - ""
+      - "&9Click to activate."
+  factory-disable:
+    item: WHEAT
+    row: 2
+    slot: 6
+    name: "&6&lFactory disabler"
+    lore:
+      - "&fThis debuff will stop all the factories"
+      - "&fof this gang of producing for 24 hours."
+      - ""
+      - "&6Click to activate."
+  exp-leaching:
+    item: PORTAL
+    row: 2
+    slot: 8
+    name: "&5&lExp leaching"
+    lore:
+      - "&fThis debuf will steal all the aquired"
+      - "&fexp of the other gang and add to your"
+      - "&fown gang exp."
+      - ""
+      - "&5Click to activate."

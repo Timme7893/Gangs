@@ -1,0 +1,13 @@
+# The settings for all the mines in the Gang houses.
+
+# sell = the money for one block.
+
+blocks:
+  stone:
+    sell: 0.3
+  slime_block:
+    sell: 0.5
+  lantern_block:
+    sell: 0.6
+  prismarine_block:
+    sell: 0.8

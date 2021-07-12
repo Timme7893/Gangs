@@ -1,0 +1,16 @@
+name: Gangs
+version: 0.1
+main: net.timme7893.gangs.GangsPlugin
+description: Gangs plugin.
+author: [Timme7893]
+
+softdepend: [PlaceholderAPI, WorldBorderAPI, MVdWPlaceholderAPI]
+
+commands:
+  gang:
+    description: Use this command to manage your gang.
+    aliases:
+      - gangs
+      - g
+  agang:
+    description: Use this admin commands to manage other gangs.

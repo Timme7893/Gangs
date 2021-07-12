@@ -1,0 +1,20 @@
+title: "&f&LAllies"
+rows: 3
+
+items:
+  exit:
+    item: WOOD_DOOR
+    slot: 9
+    row: 3
+    name: "&c&lBack"
+    lore:
+      - "&fGo back to the previous page."
+  ally:
+    item: IRON_CHESTPLATE
+    name: "&f&l%name%"
+    lore:
+      - "&fYour gang has an allience with this gang."
+      - "&fYou can participate together in gang wars"
+      - "&fand not hit the other members."
+      - ""
+      - "&c&lClick to remove ally."

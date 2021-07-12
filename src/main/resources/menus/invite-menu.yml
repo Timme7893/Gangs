@@ -1,0 +1,17 @@
+title: "%gang% invitation:"
+rows: 3
+
+items:
+  accept:
+    item: STAINED_GLASS_PANE
+    color-code: 13
+    name: "&a&lACCEPT"
+    lore:
+      - "&fClick to accept the invitation."
+  decline:
+    item: STAINED_GLASS_PANE
+    color-code: 14
+    name: "&c&lDECLINE"
+    lore:
+      - "&fClick to decline the invitation."
+

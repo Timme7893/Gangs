@@ -1,0 +1,28 @@
+title: "&c&lFactory menu"
+rows: 6
+
+status:
+  bought: "&cThis factory is owned by %name%&f."
+  for-sale: "&aClick to buy this factory!"
+  settings: "&aClick to change settings!"
+
+items:
+  factory:
+    item: IRON_PICKAXE
+    name: "&f&lFactory %id% %name%"
+    lore:
+      - "&7The statistics of factory %id%:"
+      - ""
+      - "&fRent per day: &e&l$%rent%"
+      - "&fProduction rate: &6&l%rate%"
+      - "&fProduction quality: &2&l%quality%"
+      - "&fUnclaimed blocks: &9&l%blocks%"
+      - ""
+      - "%status%"
+  exit:
+    item: WOOD_DOOR
+    slot: 9
+    row: 6
+    name: "&c&lBack"
+    lore:
+      - "&fGo back to the previous page."
